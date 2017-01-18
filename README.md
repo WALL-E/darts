@@ -1,4 +1,5 @@
 # darts
+![image](darts.jpg)
 非常简单易用的Restful-API测试框架
 
 ## 依赖
@@ -7,7 +8,7 @@
 * Jasmine
 * FrisbyJS
 
-## 参数示例
+## 测试用例
 ```js
 {
     "desc": "resthub unit-test 1", 
@@ -20,3 +21,6 @@
     "jsonStatus": "20000000",
   },
 ```
+
+## 使用方法
+只需要修改cases.js，添加更多的测试用例即可。
