@@ -2,4 +2,4 @@
 
 cd `dirname $0`
 
-jasmine-node darts_spec.js
+jasmine-node darts_spec.js --junitreport
