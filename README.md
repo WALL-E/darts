@@ -9,6 +9,20 @@
 * Jasmine
 * FrisbyJS
 
+## 安装
+
+```shell
+# RHEL/CentOS
+sudo yum install -y nodejs
+
+# Debian/Ubuntu
+sudo apt-get install -y nodejs
+
+
+npm install -g jasmine
+npm install --save-dev frisby
+```
+
 ## 测试用例
 ```js
 {
