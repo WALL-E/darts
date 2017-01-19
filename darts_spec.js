@@ -13,6 +13,7 @@ for (var i = 0;i < cases.length; i++) {
         .expectJSON({
           status: item.jsonStatus
         })
+        .expectJSON(item.path, item.jsonContent)
     .toss();
   }
 
