@@ -8,21 +8,20 @@ cases = [
     "jsonBool": true,
     "url": "http://apis.qianbao.com/basicservice/v1/gateway_unit_test",
     "httpStatus": 200,
-    "jsonStatus": "20000000",
+    "jsonStatus": "20000000"
   },
   {
     "desc": "resthub unit-test 2",
     "method": "POST",
     "params": "",
     "data": {
-      "name":"darts",
+      "name":"darts"
     },
     "jsonBool": true,
     "url": "http://apis.qianbao.com/basicservice/v1/gateway_unit_test",
     "httpStatus": 200,
-    "jsonStatus": 401,
-  },
-
+    "jsonStatus": 401
+  }
 ]
 
 module.exports = cases;
